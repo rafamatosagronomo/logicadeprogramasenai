@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8' lang='pt-br'>
+    </head>
+    <body background="http://www.ju-midis.com/Gifs1/Ju_Gifs01/jugif307.gif" ></body>
+    <style>
+        body {
+            font: normal 75pt Arial;
+        }
+    </style>
+        <p>
+            <input tupe="number" name="numero" id="numero1" placeholder="Numero 1" />
+        </p>
+        <p>
+            <input type="number" name="numero" id="numero2" placeholder="Numero 2" />
+        </p>
+        <select name="select" id="select">
+            <option value="adicao" id="adicao">adição</option>
+            <option value="subtracao" id="subtracao">subtração</option>
+            <option value="multiplicacao" id="multiplicacao">multiplicação</option>
+            <option value="divisao" id="divisao">divisão</option>
+        </select>
+
+        <button onclick="calcular()">
+            Resolver
+        </button>
+        <button onclick= "resetar()">Reset</button>
+        <p>
+            <input
+            type="number"
+            name="resultado"
+            id="resultado"
+            readonly
+            placeholder="Resultado"
+            />
+        </p>
+        <script src="calculo.js"></script>
+    </body>
+</html>
